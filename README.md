@@ -1,11 +1,11 @@
 # Bus-Booking-Application
 A scalable, non-blocking microservices-based application that enables users to book and cancel long-distance bus reservations. The system handles real-time seat availability and booking confirmation, integrating various services such as user registration, scheduling, booking, and notification processing.
 
-System Design
+**System Design**
 
 ![image](https://github.com/user-attachments/assets/2e45d194-9df1-40e7-8cf2-26f05be52e69)
 
-Architecture Overview
+**Architecture Overview**
 
 This application follows a microservices architecture, broken down into several services:
 
@@ -18,7 +18,7 @@ This application follows a microservices architecture, broken down into several 
 •	Notification Service: Sends out booking confirmations using Kafka.
 
 
-Technology Stack 
+**Technology Stack**
 
 •	Backend – Java, Spring Boot, Webflux
 
@@ -26,7 +26,7 @@ Technology Stack
 
 •	Messaging – Apache Kafka(for notifications)
 
-High-Level Workflow
+**High-Level Workflow**
 
 1.	A user browses the buses by providing the source and destination and selects a seat.
 
@@ -36,12 +36,12 @@ High-Level Workflow
 
 4.	The user receives a confirmation email
 
-Database Schema
+**Database Schema**
 
 ![image](https://github.com/user-attachments/assets/6a4f1146-e27b-4069-86f2-65fafcf38d42)
 
 
-Future Improvements
+**Future Improvements**
 
 •	Implementing payment service
 
