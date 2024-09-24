@@ -38,7 +38,8 @@ This application follows a microservices architecture, broken down into several 
 
 **Database Schema**
 
-![image](https://github.com/user-attachments/assets/6a4f1146-e27b-4069-86f2-65fafcf38d42)
+![Untitled (2)](https://github.com/user-attachments/assets/6277b99e-e19f-4e8d-9dbb-7ff620a5ef17)
+
 
 
 **Future Improvements**
