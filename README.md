@@ -15,7 +15,7 @@ This application follows a microservices architecture, broken down into several 
 
 •	Booking Service: Manages seat bookings and cancellations.
 
-•	Notification Service: Sends out booking confirmations using Kafka.
+•	Notification Service: Sends out booking confirmations using email.
 
 
 **Technology Stack**
